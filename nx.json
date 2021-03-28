@@ -22,5 +22,13 @@
       }
     }
   },
-  "projects": {}
+  "projects": {
+    "test-plugin": {
+      "tags": []
+    },
+    "test-plugin-e2e": {
+      "tags": [],
+      "implicitDependencies": ["test-plugin"]
+    }
+  }
 }
